@@ -1,0 +1,70 @@
+body {
+    color: #fcd7e7;    /* Dark gray */
+    background-color: #000000;
+    font-size: 18px;
+  }
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', serif;
+  font-weight: normal;                              /* Add this */
+}
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+p {
+  text-align: left;
+}
+.subsection.header {
+  color: red;
+}
+
+.subsection#preview {
+  color: blue;
+}
+/*
+#preview{
+  background-color: rgb(69, 184, 117);
+}
+*/
+/* styles.css */
+
+.ancestor .contents {
+  /* some declarations */
+  background-color: rgb(219, 213, 44);
+}
+* {
+  border: 0.1px solid red;
+}
+#one{
+  background-color: rgb(82, 0, 0);
+  color: rgb(149, 100, 196);
+  padding: 20px;
+  border: 30px solid  #738269;
+  margin: 20px;
+}
+#two{
+  background-color: rgb(1, 55, 68);
+  color: rgb(6, 212, 220);
+  padding: 20px;
+  border: 30px solid  #738269;
+  margin: 20px;
+}
+body {
+  text-align: center;
+}
+/*resetting styles
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
